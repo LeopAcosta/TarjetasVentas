@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		303E70D225CA29D5005FD90A /* TarjetasVentasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303E70D125CA29D5005FD90A /* TarjetasVentasApp.swift */; };
+		303E70D425CA29D5005FD90A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303E70D325CA29D5005FD90A /* ContentView.swift */; };
+		303E70D625CA29D9005FD90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303E70D525CA29D9005FD90A /* Assets.xcassets */; };
+		303E70D925CA29D9005FD90A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303E70D825CA29D9005FD90A /* Preview Assets.xcassets */; };
+		303E70E425CA29D9005FD90A /* TarjetasVentasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303E70E325CA29D9005FD90A /* TarjetasVentasTests.swift */; };
+		303E70EF25CA29D9005FD90A /* TarjetasVentasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303E70EE25CA29D9005FD90A /* TarjetasVentasUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		303E70E025CA29D9005FD90A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 303E70C625CA29D5005FD90A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 303E70CD25CA29D5005FD90A;
+			remoteInfo = TarjetasVentas;
+		};
+		303E70EB25CA29D9005FD90A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 303E70C625CA29D5005FD90A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 303E70CD25CA29D5005FD90A;
+			remoteInfo = TarjetasVentas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		303E70CE25CA29D5005FD90A /* TarjetasVentas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TarjetasVentas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		303E70D125CA29D5005FD90A /* TarjetasVentasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarjetasVentasApp.swift; sourceTree = "<group>"; };
+		303E70D325CA29D5005FD90A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		303E70D525CA29D9005FD90A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		303E70D825CA29D9005FD90A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		303E70DA25CA29D9005FD90A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303E70DF25CA29D9005FD90A /* TarjetasVentasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TarjetasVentasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		303E70E325CA29D9005FD90A /* TarjetasVentasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarjetasVentasTests.swift; sourceTree = "<group>"; };
+		303E70E525CA29D9005FD90A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303E70EA25CA29D9005FD90A /* TarjetasVentasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TarjetasVentasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		303E70EE25CA29D9005FD90A /* TarjetasVentasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarjetasVentasUITests.swift; sourceTree = "<group>"; };
+		303E70F025CA29D9005FD90A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		303E70CB25CA29D5005FD90A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303E70DC25CA29D9005FD90A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303E70E725CA29D9005FD90A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		303E70C525CA29D5005FD90A = {
+			isa = PBXGroup;
+			children = (
+				303E70D025CA29D5005FD90A /* TarjetasVentas */,
+				303E70E225CA29D9005FD90A /* TarjetasVentasTests */,
+				303E70ED25CA29D9005FD90A /* TarjetasVentasUITests */,
+				303E70CF25CA29D5005FD90A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		303E70CF25CA29D5005FD90A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				303E70CE25CA29D5005FD90A /* TarjetasVentas.app */,
+				303E70DF25CA29D9005FD90A /* TarjetasVentasTests.xctest */,
+				303E70EA25CA29D9005FD90A /* TarjetasVentasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303E70D025CA29D5005FD90A /* TarjetasVentas */ = {
+			isa = PBXGroup;
+			children = (
+				303E70D125CA29D5005FD90A /* TarjetasVentasApp.swift */,
+				303E70D325CA29D5005FD90A /* ContentView.swift */,
+				303E70D525CA29D9005FD90A /* Assets.xcassets */,
+				303E70DA25CA29D9005FD90A /* Info.plist */,
+				303E70D725CA29D9005FD90A /* Preview Content */,
+			);
+			path = TarjetasVentas;
+			sourceTree = "<group>";
+		};
+		303E70D725CA29D9005FD90A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				303E70D825CA29D9005FD90A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		303E70E225CA29D9005FD90A /* TarjetasVentasTests */ = {
+			isa = PBXGroup;
+			children = (
+				303E70E325CA29D9005FD90A /* TarjetasVentasTests.swift */,
+				303E70E525CA29D9005FD90A /* Info.plist */,
+			);
+			path = TarjetasVentasTests;
+			sourceTree = "<group>";
+		};
+		303E70ED25CA29D9005FD90A /* TarjetasVentasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				303E70EE25CA29D9005FD90A /* TarjetasVentasUITests.swift */,
+				303E70F025CA29D9005FD90A /* Info.plist */,
+			);
+			path = TarjetasVentasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		303E70CD25CA29D5005FD90A /* TarjetasVentas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303E70F325CA29D9005FD90A /* Build configuration list for PBXNativeTarget "TarjetasVentas" */;
+			buildPhases = (
+				303E70CA25CA29D5005FD90A /* Sources */,
+				303E70CB25CA29D5005FD90A /* Frameworks */,
+				303E70CC25CA29D5005FD90A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TarjetasVentas;
+			productName = TarjetasVentas;
+			productReference = 303E70CE25CA29D5005FD90A /* TarjetasVentas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		303E70DE25CA29D9005FD90A /* TarjetasVentasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303E70F625CA29D9005FD90A /* Build configuration list for PBXNativeTarget "TarjetasVentasTests" */;
+			buildPhases = (
+				303E70DB25CA29D9005FD90A /* Sources */,
+				303E70DC25CA29D9005FD90A /* Frameworks */,
+				303E70DD25CA29D9005FD90A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				303E70E125CA29D9005FD90A /* PBXTargetDependency */,
+			);
+			name = TarjetasVentasTests;
+			productName = TarjetasVentasTests;
+			productReference = 303E70DF25CA29D9005FD90A /* TarjetasVentasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		303E70E925CA29D9005FD90A /* TarjetasVentasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303E70F925CA29D9005FD90A /* Build configuration list for PBXNativeTarget "TarjetasVentasUITests" */;
+			buildPhases = (
+				303E70E625CA29D9005FD90A /* Sources */,
+				303E70E725CA29D9005FD90A /* Frameworks */,
+				303E70E825CA29D9005FD90A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				303E70EC25CA29D9005FD90A /* PBXTargetDependency */,
+			);
+			name = TarjetasVentasUITests;
+			productName = TarjetasVentasUITests;
+			productReference = 303E70EA25CA29D9005FD90A /* TarjetasVentasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		303E70C625CA29D5005FD90A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					303E70CD25CA29D5005FD90A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					303E70DE25CA29D9005FD90A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 303E70CD25CA29D5005FD90A;
+					};
+					303E70E925CA29D9005FD90A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 303E70CD25CA29D5005FD90A;
+					};
+				};
+			};
+			buildConfigurationList = 303E70C925CA29D5005FD90A /* Build configuration list for PBXProject "TarjetasVentas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 303E70C525CA29D5005FD90A;
+			productRefGroup = 303E70CF25CA29D5005FD90A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				303E70CD25CA29D5005FD90A /* TarjetasVentas */,
+				303E70DE25CA29D9005FD90A /* TarjetasVentasTests */,
+				303E70E925CA29D9005FD90A /* TarjetasVentasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		303E70CC25CA29D5005FD90A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303E70D925CA29D9005FD90A /* Preview Assets.xcassets in Resources */,
+				303E70D625CA29D9005FD90A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303E70DD25CA29D9005FD90A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303E70E825CA29D9005FD90A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		303E70CA25CA29D5005FD90A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303E70D425CA29D5005FD90A /* ContentView.swift in Sources */,
+				303E70D225CA29D5005FD90A /* TarjetasVentasApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303E70DB25CA29D9005FD90A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303E70E425CA29D9005FD90A /* TarjetasVentasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303E70E625CA29D9005FD90A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303E70EF25CA29D9005FD90A /* TarjetasVentasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		303E70E125CA29D9005FD90A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 303E70CD25CA29D5005FD90A /* TarjetasVentas */;
+			targetProxy = 303E70E025CA29D9005FD90A /* PBXContainerItemProxy */;
+		};
+		303E70EC25CA29D9005FD90A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 303E70CD25CA29D5005FD90A /* TarjetasVentas */;
+			targetProxy = 303E70EB25CA29D9005FD90A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		303E70F125CA29D9005FD90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		303E70F225CA29D9005FD90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		303E70F425CA29D9005FD90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TarjetasVentas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TarjetasVentas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mcgnetworks.TarjetasVentas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		303E70F525CA29D9005FD90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TarjetasVentas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TarjetasVentas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mcgnetworks.TarjetasVentas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		303E70F725CA29D9005FD90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TarjetasVentasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mcgnetworks.TarjetasVentasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TarjetasVentas.app/TarjetasVentas";
+			};
+			name = Debug;
+		};
+		303E70F825CA29D9005FD90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TarjetasVentasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mcgnetworks.TarjetasVentasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TarjetasVentas.app/TarjetasVentas";
+			};
+			name = Release;
+		};
+		303E70FA25CA29D9005FD90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TarjetasVentasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mcgnetworks.TarjetasVentasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TarjetasVentas;
+			};
+			name = Debug;
+		};
+		303E70FB25CA29D9005FD90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TarjetasVentasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mcgnetworks.TarjetasVentasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TarjetasVentas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		303E70C925CA29D5005FD90A /* Build configuration list for PBXProject "TarjetasVentas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303E70F125CA29D9005FD90A /* Debug */,
+				303E70F225CA29D9005FD90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303E70F325CA29D9005FD90A /* Build configuration list for PBXNativeTarget "TarjetasVentas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303E70F425CA29D9005FD90A /* Debug */,
+				303E70F525CA29D9005FD90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303E70F625CA29D9005FD90A /* Build configuration list for PBXNativeTarget "TarjetasVentasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303E70F725CA29D9005FD90A /* Debug */,
+				303E70F825CA29D9005FD90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303E70F925CA29D9005FD90A /* Build configuration list for PBXNativeTarget "TarjetasVentasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303E70FA25CA29D9005FD90A /* Debug */,
+				303E70FB25CA29D9005FD90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 303E70C625CA29D5005FD90A /* Project object */;
+}
